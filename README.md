@@ -52,7 +52,11 @@ The backend is divided into **three microservices/projects**:
 | Question       |                | Quiz Service   |
 | Service        |                | (Consumer)     |
 | (CRUD on Qs)   |                | - Generate quiz|
-| - Add Q        |                | - Get Qs       |
-| - Update Q     |                | - Submit Quiz  |
-| - Delete Q     |                | - Get Score    |
-+----------------+                +----------------+
+| - Read Q       |                | - Get Qs       | 
+| - Add Q        |                | - Submit Quiz  |
+| - Update Q     |                | - Get Score    |
+| - Delete Q     |                +----------------+
+| - createQuiz   |
+| - getQuiz Q    |
+| - getScore     |
++----------------+              
